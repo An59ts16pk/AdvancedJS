@@ -1,0 +1,37 @@
+.textarea {
+  border: 1px solid rgb(175, 76, 76);
+  width: 300px;
+  height: 150px;
+}
+
+.product {
+  display: flex;
+  width: 400px;
+  background-color: beige;
+}
+
+.listReviews {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.revAdd {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.checkBtn {
+  width: 150px;
+}
+
+.reviewHeading {
+  width: 400px;
+  background-color: bisque;
+}
+
+.spanError {
+  width: 400px;
+  background-color: rgb(245, 173, 173);
+}/*# sourceMappingURL=style.css.map */
