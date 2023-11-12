@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding a review</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js" defer></script>
+    <script src="addrev.js" defer></script>
+</head>
+<body>
+    <header class="header center">
+        <div class="header__box">
+            <h3 class="header__heading">Страница добавления отзыва о продукте</h3>
+            <div class="header__boxlink">
+                <a class="header__link" href="#">Добавить отзыв</a>
+                <a class="header__link" href="viewrev.html">Смотреть отзывы</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container center">
+        <div class="form">
+            <div class="form__box">
+                <p class="form__text">Введите наименование продукта:</p>
+                <input type="text" class="form__product" name="productname" id="productname">
+            </div>
+            <div class="form__box">
+                <p class="form__text">Оставьте отзыв о продукте:</p>
+                <textarea name="review" id="review" class="form__textarea" rows="15"></textarea>
+            </div>
+            <div class="form__box">
+                <input type="submit" value="Добавить отзыв" class="addButton">
+                <div class="form__error">
+                    <p class="product__error"></p>
+                    <p class="review__error"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
+
+<!-- 1. Страница добавления отзыва о продукте.
+Должна содержать форму с полем для ввода названия продукта и текстовое поле 
+для текста отзыва.
+Кнопка "Добавить отзыв", которая сохраняет отзыв о продукте в localstorage.
+Необходимо реализовать проверку, оба поля должны быть заполнены, если это не 
+так, необходимо выводить ошибку пользователю. -->
